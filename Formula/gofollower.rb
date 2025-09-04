@@ -5,20 +5,20 @@
 class Gofollower < Formula
   desc "Command-line utility for following HTTP links"
   homepage "https://github.com/jksolbakken/gofollower"
-  version "1.20250902185019"
+  version "1.20250904162300"
 
   on_macos do
     on_intel do
-      url "https://github.com/jksolbakken/gofollower/releases/download/1.20250902185019/gofollower_1.20250902185019_darwin_amd64.tar.gz"
-      sha256 "bdcab11db51cc9accd90acf84acf34ebb6939f03bd787d12c24883d56560299f"
+      url "https://github.com/jksolbakken/gofollower/releases/download/1.20250904162300/gofollower_1.20250904162300_darwin_amd64.tar.gz"
+      sha256 "5f10f4a23c1194c0c692ecd7499e5a8d9712ccd2522bd4fedd291c0f33773b4c"
 
       def install
         bin.install "follow"
       end
     end
     on_arm do
-      url "https://github.com/jksolbakken/gofollower/releases/download/1.20250902185019/gofollower_1.20250902185019_darwin_arm64.tar.gz"
-      sha256 "46945b0c9d747af8b75387f2b99d51d49e35d8dfcd66384eb8ae2bb5bd5cfd85"
+      url "https://github.com/jksolbakken/gofollower/releases/download/1.20250904162300/gofollower_1.20250904162300_darwin_arm64.tar.gz"
+      sha256 "e13218f2931670e71f4ddbb114f8ab194e54f0c32bec309d17a315190b626e9a"
 
       def install
         bin.install "follow"
@@ -29,8 +29,8 @@ class Gofollower < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/jksolbakken/gofollower/releases/download/1.20250902185019/gofollower_1.20250902185019_linux_amd64.tar.gz"
-        sha256 "ae210a59ebc7a76044944da3ec79cc38affbc32d79cbf2f43e7cf4ba861c85ce"
+        url "https://github.com/jksolbakken/gofollower/releases/download/1.20250904162300/gofollower_1.20250904162300_linux_amd64.tar.gz"
+        sha256 "cc782ebf0bb29a148600dc4b8e37ccb02cb35bb3025725cb698f93825d73d4dd"
 
         def install
           bin.install "follow"
@@ -39,8 +39,8 @@ class Gofollower < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/jksolbakken/gofollower/releases/download/1.20250902185019/gofollower_1.20250902185019_linux_arm64.tar.gz"
-        sha256 "88a291f4424b2f8f9ba2e654c2644a27a7c37aa2b8f5f69f57da9df24939260f"
+        url "https://github.com/jksolbakken/gofollower/releases/download/1.20250904162300/gofollower_1.20250904162300_linux_arm64.tar.gz"
+        sha256 "60fd3c8edec6dd2fe6b544f50f36d04342b67cb10e6046d599f679c641164a7d"
 
         def install
           bin.install "follow"
