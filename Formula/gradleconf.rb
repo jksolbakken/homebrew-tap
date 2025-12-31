@@ -5,20 +5,20 @@
 class Gradleconf < Formula
   desc "Opinionated tool for configuring single module Kotlin Gradle projects"
   homepage "https://github.com/jksolbakken/gradleconf"
-  version "1.20251231100231"
+  version "1.20251231101805"
 
   on_macos do
     on_intel do
-      url "https://github.com/jksolbakken/gradleconf/releases/download/1.20251231100231/gradleconf_1.20251231100231_darwin_amd64.tar.gz"
-      sha256 "7d6a898e4585ff647699313bf8c7555bc7b54d32a9b9dc146ebfcbdf9a7ed5b1"
+      url "https://github.com/jksolbakken/gradleconf/releases/download/1.20251231101805/gradleconf_1.20251231101805_darwin_amd64.tar.gz"
+      sha256 "6cbda059b19aa61413afa30651d006097b5f3f3e4d1a59eb15622610ea2a70b6"
 
       def install
         bin.install "gradleconf"
       end
     end
     on_arm do
-      url "https://github.com/jksolbakken/gradleconf/releases/download/1.20251231100231/gradleconf_1.20251231100231_darwin_arm64.tar.gz"
-      sha256 "a1109a820104a7130a6b2370d8284c1d769682b43865e0585c060b5e1c80c710"
+      url "https://github.com/jksolbakken/gradleconf/releases/download/1.20251231101805/gradleconf_1.20251231101805_darwin_arm64.tar.gz"
+      sha256 "c9f5d4d2add428954ce32d1a519946aa3b9bb44a8adbb1d9ab430e68a2e41ba8"
 
       def install
         bin.install "gradleconf"
@@ -29,8 +29,8 @@ class Gradleconf < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/jksolbakken/gradleconf/releases/download/1.20251231100231/gradleconf_1.20251231100231_linux_amd64.tar.gz"
-        sha256 "85b5def7cfbf950a5bf7b36adf2fdcb07dbb63377fa7d76b920c2c9a8014548d"
+        url "https://github.com/jksolbakken/gradleconf/releases/download/1.20251231101805/gradleconf_1.20251231101805_linux_amd64.tar.gz"
+        sha256 "697103f394637b15b3c8ca34afe749b83789ef399ae3364f20add64db825758e"
 
         def install
           bin.install "gradleconf"
@@ -39,8 +39,8 @@ class Gradleconf < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/jksolbakken/gradleconf/releases/download/1.20251231100231/gradleconf_1.20251231100231_linux_arm64.tar.gz"
-        sha256 "637cdcd2d8d6967844f31a16e396fae91aeccf0ea43cbda48702cc2adf44cb36"
+        url "https://github.com/jksolbakken/gradleconf/releases/download/1.20251231101805/gradleconf_1.20251231101805_linux_arm64.tar.gz"
+        sha256 "c23d47f1bb88d8be9e88bc57da58e8417f07f16ad2a599b41243db22879a0266"
 
         def install
           bin.install "gradleconf"
